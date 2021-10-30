@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: shieldmask
+  m_Shader: {fileID: -6465566751694194690, guid: 59458903a6652db4b8704e0b90de75ec,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_F41A19AD:
+        m_Texture: {fileID: 2800000, guid: a23a79de91cd6804d9c44f1e664a1ee0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Boolean_23344E6A: 0
+    - Vector1_6B82E111: 0.4
+    - Vector1_A002D067: 10
+    - Vector1_C89BE71C: 0
+    - Vector1_E56C78AE: 2
+    m_Colors:
+    - Color_435FEC8B: {r: 6.7836833, g: 3.833383, b: 2.719873, a: 1}
+    - Color_7ACD2525: {r: 1.5018566, g: 0.8362419, b: 0.5738226, a: 1}
+    - Color_BAE37F87: {r: 2.4016795, g: 1.1115085, b: 0.75902134, a: 1}
+    - Vector3_4DA259DD: {r: 12.78, g: 7.5, b: 0, a: 0}
+    - Vector3_5A3E6DCC: {r: 0.2, g: 0.2, b: 0.2, a: 0}

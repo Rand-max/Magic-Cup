@@ -8,7 +8,10 @@ public class witchController : MonoBehaviour
 
     public Animator witchani;
 
+    public GameObject sheild;
+
     private Vector3 startPosition;
+    private Vector3 realTimepos;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,8 +22,10 @@ public class witchController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        realTimepos=startPosition;
         MoveVertical ();
         SpellTrigger();
+        GenerateShield();
     }
     //idle 時上下浮動，移動速度大於0時則取消該函式
     void MoveVertical()
@@ -43,6 +48,16 @@ public class witchController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             witchani.SetTrigger("spell");
+            //CastSpell();        
+        }
+    }
+    //生成護盾
+    void GenerateShield()
+    {
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            witchani.SetTrigger("spell");
+            Instantiate(sheild,startPosition,Quaternion.identity);
             //CastSpell();        
         }
     }
