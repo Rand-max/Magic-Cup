@@ -56,9 +56,7 @@ public class witchController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.B))
         {
-            witchani.SetTrigger("spell");
-            Instantiate(sheild,startPosition,Quaternion.identity);
-            //CastSpell();        
+            witchani.SetTrigger("spell");     
         }
     }
 }
